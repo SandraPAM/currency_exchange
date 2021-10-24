@@ -1,10 +1,10 @@
 def main():
-    pesos = float(input("Ingrese la cantidad en pesos MXN: $"))
-    factor_dolar = 20.27
-    dolares = pesos/factor_dolar
-    dolares = round(dolares,2)
-    dolares = str(dolares)
-    print("El equivalente es : ${} dólares".format(dolares))
+    pesos = float(input("Amount in MXN: $"))
+    exchange_factor = 20.27
+    new_coin = pesos/exchange_factor
+    new_coin = round(new_coin,2)
+    new_coin = str(new_coin)
+    print("Equivalent : ${} dollars".format(new_coin))
 
 
 if __name__ == "__main__":
